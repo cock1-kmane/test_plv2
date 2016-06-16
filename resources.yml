@@ -1,36 +1,9 @@
 resources:
-  - name: resourcevtest-image3
+  - name: resourcevtest-image5
     type: image
     integration: cock1-hub #your subs integration for docker hub
     source:
       name: "shiphitchcock1/testsamplenode"
       isPull: false
       tag: latest
-      
-  - name: resourcevtest-image4
-    type: image
-    integration: cock1-hub #your subs integration for docker hub
-    source:
-      name: "shiphitchcock1/sample_python"
-      isPull: true
-      tag: latest
-      
-  - name: resourcevtest-dockeroption2
-    type: dockerOptions
-    source:
-      memory: 64
-      cpu-shares: 256
-      portMappings:
-        - 80:80
 
-  - name: resourcevtest-param2
-    type: params
-    source:
-      params:
-        MONGO_API_URL: "localhost:28017"
-        
-  - name: resourcevtest-replica2
-    type: replicas
-    source:
-      count: 1
-        
