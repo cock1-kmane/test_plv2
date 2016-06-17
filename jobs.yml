@@ -5,7 +5,7 @@ jobs:
       - GET: test6064-image1
       - GET: test6064-dockeroption1
       - GET: test6064-param1
-      - GET: test6064-replica1
+      - GET: test6064-replica2
       
  # - name: jobtest6064-ecsdeploy1
   #  type: ecsDeploy
@@ -17,4 +17,4 @@ jobs:
   #  type: manifest
   #  steps:
     #  - GET: test6064-image2
-    
+    #  - GET: test6064-replica1
