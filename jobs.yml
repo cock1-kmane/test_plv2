@@ -7,11 +7,11 @@ jobs:
       - GET: test6064-param1
       - GET: test6064-replica2
       
- # - name: jobtest6064-ecsdeploy1
-  #  type: ecsDeploy
-   # steps:
-    #  - GET: jobtest6064-manifest1
-   #   - GET: test6064-ecscluster1
+  - name: jobtest6064-ecsdeploy1
+    type: ecsDeploy
+    steps:
+      - GET: jobtest6064-manifest1
+      - GET: test6064-ecscluster1
       
   #- name: jobtest6064-manifest2
   #  type: manifest
