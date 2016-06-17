@@ -1,14 +1,20 @@
 jobs:
-  - name: jobvmanifest1
+  - name: jobtest6064-manifest1
     type: manifest
     steps:
-      - GET: resourcevtest-image1
-      - GET: resourcevtest-dockeroption1
-      - GET: resourcevtest-param1
+      - GET: test6064-image1
+      - GET: test6064-dockeroption1
+      - GET: test6064-param1
+      - GET: test6064-replica1
       
-  - name: jobvmanifest2
-    type: manifest
-    steps:
-      - GET: resourcevtest-replica1
-      - GET: resourcevtest-image2
-      - GET: resourcevtest-dockeroption1
+ # - name: jobtest6064-ecsdeploy1
+  #  type: ecsDeploy
+   # steps:
+    #  - GET: jobtest6064-manifest1
+   #   - GET: test6064-ecscluster1
+      
+  #- name: jobtest6064-manifest2
+  #  type: manifest
+  #  steps:
+    #  - GET: test6064-image2
+    
