@@ -34,6 +34,11 @@ resources:
     source:
       count: 1
       
+  - name: test6064-replica2
+    type: replicas
+    source:
+      count: 2
+      
   - name: test6064-ecscluster1
     type: ecsCluster
     integration: cock1-ecscluster
