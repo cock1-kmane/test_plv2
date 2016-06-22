@@ -18,3 +18,8 @@ jobs:
     steps:
       - GET: jobvmanifest1
       - GET: jobvmanifest2
+      
+  - name: jobvmanifest4
+    type: manifest
+    steps:
+      - GET: jobvmanifest2
