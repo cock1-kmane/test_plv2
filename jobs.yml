@@ -22,4 +22,5 @@ jobs:
   - name: jobvmanifest4
     type: manifest
     steps:
-      - GET: jobvmanifest2
+      - PUT: jobvmanifest3
+   
