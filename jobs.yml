@@ -23,4 +23,4 @@ jobs:
     type: manifest
     steps:
       - GET: jobvmanifest3
-   
+      - GET: resourcevtest-image1
