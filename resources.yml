@@ -23,6 +23,54 @@ resources:
       isPull: false
       tag: latest
       
+  - name: resourcevtest-image4
+    type: image
+    integration: cock1-hub #your subs integration for docker hub
+    source:
+      name: "shiphitchcock1/testsamplenode"
+      isPull: false
+      tag: latest
+      
+  - name: resourcevtest-image5
+    type: image
+    integration: cock1-hub #your subs integration for docker hub
+    source:
+      name: "shiphitchcock1/sample_python"
+      isPull: true
+      tag: latest
+      
+  - name: resourcevtest-image6
+    type: image
+    integration: cock1-hub #your subs integration for docker hub
+    source:
+      name: "shiphitchcock1/samplenod"
+      isPull: false
+      tag: latest
+      
+  - name: resourcevtest-image7
+    type: image
+    integration: cock1-hub #your subs integration for docker hub
+    source:
+      name: "shiphitchcock1/testsamplenode"
+      isPull: false
+      tag: latest
+      
+  - name: resourcevtest-image8
+    type: image
+    integration: cock1-hub #your subs integration for docker hub
+    source:
+      name: "shiphitchcock1/sample_python"
+      isPull: true
+      tag: latest
+      
+  - name: resourcevtest-image9
+    type: image
+    integration: cock1-hub #your subs integration for docker hub
+    source:
+      name: "shiphitchcock1/samplenod"
+      isPull: false
+      tag: latest
+      
   - name: resourcevtest-dockeroption1
     type: dockerOptions
     source:
@@ -41,4 +89,3 @@ resources:
     type: replicas
     source:
       count: 1
-        
