@@ -18,6 +18,12 @@ jobs:
     steps:
       - GET: jobvmanifest1
       - GET: jobvmanifest2
+      - PUT: resourcevtest-image4
+      - PUT: resourcevtest-image5
+      - PUT: resourcevtest-image6
+      - PUT: resourcevtest-image7
+      - PUT: resourcevtest-image8
+      - PUT: resourcevtest-image9
       
   - name: jobvmanifest4
     type: manifest
