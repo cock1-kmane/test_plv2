@@ -12,3 +12,9 @@ jobs:
       - GET: resourcevtest-replica1
       - GET: resourcevtest-image2
       - GET: resourcevtest-dockeroption1
+      
+  - name: jobvmanifest3
+    type: manifest
+    steps:
+      - GET: jobvmanifest1
+      - GET: jobvmanifest2
