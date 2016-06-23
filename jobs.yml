@@ -50,3 +50,5 @@ jobs:
     steps:
       - GET: jobvmanifest4 
       - GET: resourcevtest-image3
+      - GET: resourcevtest-image17
+      - GET: resourcevtest-image18
