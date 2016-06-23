@@ -43,6 +43,8 @@ jobs:
       - GET: resourcevtest-image7
       - GET: resourcevtest-image8
       - GET: resourcevtest-image9
+      - PUT: resourcevtest-image17
+      - PUT: resourcevtest-image18
 
      
   - name: jobvmanifest5
