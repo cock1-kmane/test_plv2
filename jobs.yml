@@ -35,3 +35,9 @@ jobs:
     type: manifest
     steps:
       - GET: jobvmanifest4  
+      - GET: resourcevtest-image4
+      - GET: resourcevtest-image5
+      - GET: resourcevtest-image6
+      - GET: resourcevtest-image7
+      - GET: resourcevtest-image8
+      - GET: resourcevtest-image9
