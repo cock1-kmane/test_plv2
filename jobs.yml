@@ -1,62 +1,6 @@
 jobs:
-  - name: jobvmanifest1
+  - name: jobmf1
     type: manifest
     steps:
-      - GET: resourcevtest-image1
-      - GET: resourcevtest-dockeroption1
-      - GET: resourcevtest-param1
+      - GET: res-img1
       
-  - name: jobvmanifest2
-    type: manifest
-    steps:
-      - GET: resourcevtest-replica1
-      - GET: resourcevtest-image2
-      - GET: resourcevtest-dockeroption1
-      - PUT: resourcevtest-image10
-      - PUT: resourcevtest-image11
-      - PUT: resourcevtest-image12
-      - PUT: resourcevtest-image13
-      - PUT: resourcevtest-image14
-      - PUT: resourcevtest-image15
-      - PUT: resourcevtest-image16
-      - PUT: resourcevtest-image17
-      - PUT: resourcevtest-image18
-      
-  - name: jobvmanifest3
-    type: manifest
-    steps:
-      - GET: jobvmanifest1
-      - GET: jobvmanifest2
-      - PUT: resourcevtest-image4
-      - PUT: resourcevtest-image5
-      - PUT: resourcevtest-image6
-      - PUT: resourcevtest-image7
-      - PUT: resourcevtest-image8
-      - PUT: resourcevtest-image9
-      
-  - name: jobvmanifest4
-    type: manifest
-    steps:
-      - GET: resourcevtest-image4
-      - GET: resourcevtest-image5
-      - GET: resourcevtest-image6
-      - GET: resourcevtest-image7
-      - GET: resourcevtest-image8
-      - GET: resourcevtest-image9
-      - PUT: resourcevtest-image17
-      - PUT: resourcevtest-image18
-
-  - name: jobvmanifest5
-    type: manifest
-    steps:
-      - GET: jobvmanifest4 
-      - GET: resourcevtest-image3
-      - GET: resourcevtest-image17
-      - GET: resourcevtest-image18
-      - PUT: resourcevtest-image13
-      - PUT: resourcevtest-image14
-      
-  - name: jobvmanifest6
-    type: manifest
-    steps:
-      - GET: jobvmanifest5
