@@ -3,4 +3,4 @@ jobs:
     type: manifest
     steps:
       - GET: res-img1
-      
+      - GET: res-img2
