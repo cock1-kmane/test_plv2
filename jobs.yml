@@ -55,3 +55,8 @@ jobs:
       - GET: resourcevtest-image18
       - PUT: resourcevtest-image13
       - PUT: resourcevtest-image14
+      
+  - name: jobvmanifest6
+    type: manifest
+    steps:
+      - GET: jobvmanifest5
