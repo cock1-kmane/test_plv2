@@ -28,5 +28,5 @@ resources:
     integration: cock1-hub #your subs integration for docker hub
     source:
       name: "shiphitchcock1/testsamplenode"
-      isPull: false
+      isPull: false 
       tag: latest
