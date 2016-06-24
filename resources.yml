@@ -14,3 +14,19 @@ resources:
       name: "shiphitchcock1/testsamplenode"
       isPull: false
       tag: latest
+      
+  - name: res-img3
+    type: image
+    integration: cock1-hub #your subs integration for docker hub
+    source:
+      name: "shiphitchcock1/testsamplenode"
+      isPull: false
+      tag: latest
+      
+  - name: res-img4
+    type: image
+    integration: cock1-hub #your subs integration for docker hub
+    source:
+      name: "shiphitchcock1/testsamplenode"
+      isPull: false
+      tag: latest
