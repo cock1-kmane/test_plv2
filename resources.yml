@@ -162,7 +162,7 @@ resources:
     source:
       count: 1
       
-  - name: e2eplv2-gitrepo
+  - name: e2eplv2-gitrepo1
     type: gitRepo
     integration: cock1-github
     source:
