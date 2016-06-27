@@ -9,4 +9,4 @@ jobs:
     type: manifest
     steps:
       - GET: res-img3 
-      - GET: res-img4
+     # - GET: res-img4
