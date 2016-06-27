@@ -3,7 +3,7 @@ jobs:
     type: manifest
     steps:
       - GET: res-img1
-      - GET: res-img2
+     # - GET: res-img2
       
   - name: jobmf2
     type: manifest
