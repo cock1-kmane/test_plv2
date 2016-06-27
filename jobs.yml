@@ -1,11 +1,11 @@
 jobs:
-  - name: jobmf1
+  - name: jobmf3
     type: manifest
     steps:
       - GET: res-img1
      # - GET: res-img2
       
-  - name: jobmf2
+  - name: jobmf4
     type: manifest
     steps:
       - GET: res-img3 
