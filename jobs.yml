@@ -14,4 +14,4 @@ jobs:
   - name: jobmf5
     type: manifest
     steps:
-      - PUT: res-img3
+      - PUT: res-img2
