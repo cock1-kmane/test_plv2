@@ -8,5 +8,5 @@ jobs:
   - name: jobmf4
     type: manifest
     steps:
-      - GET: res-img3 
-      - GET: res-img4
+      - PUT: res-img3 
+      - PUT: res-img4
