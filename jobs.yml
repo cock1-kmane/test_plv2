@@ -1,12 +1,12 @@
 jobs:
-  - name: jobmf3
+  - name: jobmf11
     type: manifest
     steps:
       - GET: res-img1
      # - GET: res-img2
       
-  - name: jobmf4
-    type: manifest
-    steps:
-      - PUT: res-img3 
+  #- name: jobmf4
+   # type: manifest
+    #steps:
+     # - PUT: res-img3 
      # - PUT: res-img4
