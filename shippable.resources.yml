@@ -16,3 +16,25 @@ resources:
       isPull: false
     initialVersion:
       versionName: "deploy.5"
+
+  - name: tri-updopt1
+    type: dockerOptions
+    pointer:
+      memory: 128
+      #Triton has standard values for memory 128,512 etc.
+      #If non standard values is given in the memory, it chooses the closest
+      #standard memory value. Triton also uses this value to choose the plan
+      #and cpu-shares
+      publishAllPorts : true
+      #publishAllPorts assigns a public ip to the container and gives endpoint
+      #for accessing the exposed ports.
+        
+  - name: tri-updopt2
+    type: dockerOptions
+    pointer:
+      memory: 200
+      #Triton has standard values for memory 128,512 etc.
+      #If non standard values is given in the memory, it chooses the closest
+      #standard memory value. Triton also uses this value to choose the plan
+      #and cpu-shares
+      publishAllPorts : false
