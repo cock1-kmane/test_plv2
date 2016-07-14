@@ -4,3 +4,5 @@ jobs:
     steps:
       - GET: tri-upimg1
       - GET: triggerup1
+      - GET: tri-updopt1
+      - GET: tri-updopt2
