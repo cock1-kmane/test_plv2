@@ -1,0 +1,6 @@
+jobs:
+  - name: r-manifest1
+    type: manifest
+    steps:
+      - GET: tri-upimg1
+      - GET: triggerup1
