@@ -2,7 +2,7 @@ triggers:
   - name: triggerup1
     type: trigger
     pointer:
-      message: 'test triggering for jobs'
+      message: 'test triggering for jobs.yml'
       
   - name: triggerup2
     type: trigger
