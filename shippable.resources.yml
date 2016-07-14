@@ -1,12 +1,12 @@
 resources:
-  - name: tri-upimg1
-    type: image
-    integration: cock1-hub
-    pointer:
-      sourceName: "shiphitchcock1/betaci_nod_limitless_pl"
-      isPull: false
-    initialVersion:
-      versionName: "deploy.4"
+ # - name: tri-upimg1
+  #  type: image
+   # integration: cock1-hub
+    #pointer:
+     # sourceName: "shiphitchcock1/betaci_nod_limitless_pl"
+      #isPull: false
+    #initialVersion:
+     # versionName: "deploy.4"
       
   - name: tri-upparam1
     type: params
@@ -14,11 +14,6 @@ resources:
       params:
         api_url : "betaapi.shippable.co"
         MONGO_API_URL: "localhost:28017"
-        
-  - name: tri-upparam1
-    type: replicas
-    pointer:
-      count: 1
       
   #- name: tri-upimg2
    # type: image
