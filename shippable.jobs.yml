@@ -6,3 +6,9 @@ jobs:
       - GET: triggerup1
       - GET: tri-updopt1
       - GET: tri-updopt2
+      
+  - name: r-manifest2
+    type: manifest
+    steps:
+      - GET: tri-upimg2
+      - GET: triggerup2
